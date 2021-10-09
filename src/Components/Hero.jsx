@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                Get Started
+                <Link to="/about" >Read About</Link>
               </button>
             </div>
           </div>
