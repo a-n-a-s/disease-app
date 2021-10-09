@@ -41,7 +41,7 @@ const About = () => {
         
         <span className="font-semibold text-xl text-gray-700">Github : </span>https://github.com/a-n-a-s/disease-app
       </Link>
-      <span className="font-semibold text-xl text-gray-700">* Hosted On Netlify</span>
+      <span className=" my-2 font-semibold text-xl text-gray-700">* Hosted On Netlify</span>
     </div>
   );
 };
